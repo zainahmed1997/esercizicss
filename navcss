@@ -1,0 +1,52 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style>
+		.a1:hover{
+			color: white;
+			background-color: green;
+		}
+		nav{
+			background-color: gainsboro;
+			width: 497px;
+			height: auto;
+			
+		}
+		a{color: black}
+		a:hover{color: white}
+	</style>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="news.asp">News</a>
+        <a href="default.asp">Home</a>
+            <a href="news.asp">News</a>
+            <a disabled href="news.asp">disabled</a>
+            
+            
+           
+
+        <select>
+            <!-- option tag starts -->
+            <option>Dropdown</option>
+            <option value="html">HTML</option>
+            <option value="java">JAVA</option>
+        
+            <option value="php">PHP</option>
+            
+            <!-- option tag ends -->
+          </select>
+        
+            <input id="search" type="text" placeholder="search for..." >
+            <input id="submit" class="a1" type="submit" value="search">
+         
+
+    </ul>
+    </nav>
+</header>
+</body>
+</html>
