@@ -1,0 +1,49 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+         section{
+          width: 200px;
+          background-color: aqua;
+          border-radius: 10px; 
+          display: flex;
+          height: 100vh;
+          flex-direction: column;
+          
+         }
+         a{
+          -webkit-transition: color ease-in-out 0,3s ;
+          flex: 1;
+          color: black
+          
+         }
+         a:hover{
+           color: red ; 
+           ;
+         }
+
+         img{
+          width: 100px;
+          height: 100px;
+         }
+        </style>
+      </head>
+      <body>
+        <section>
+          <img src="immagini/logo.png" alt="">
+          <a href=""><span>home</span></a>
+          <a href=""><span>blog</span></a>
+          <a href=""><span>forum</span></a>
+          <a href=""><span>contact</span></a>
+
+        </section>
+        
+   
+      </body>
+    </html>
+  </body>
+</html>
