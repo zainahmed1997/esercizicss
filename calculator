@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Calculator for Front End Masters exercise</title>
+        
+
+
+<style>
+
+
+.container{
+  width:  200px;
+  height: 200px
+}
+  
+  .body {
+  
+  box-sizing: border-box
+}
+.calculator{
+    
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
+}
+  
+.om{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: end;
+  font-size: 45px;
+  justify-items: center;
+}
+
+.c{
+   grid-column: 4;
+  grid-row: 2 / span 4; 
+  background-color: red;
+}
+.simbol{
+  background-color: lightgray
+}
+.button{
+  background-color: white;
+}
+
+</style>
+
+                
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="om">0</div>
+            <div class="calculator">
+             
+              <button type="button" class="simbol" >+</button>
+              <button type="button" class="simbol" >-</button>
+              <button type="button" class="simbol" >&times;</button>
+              <button type="button" class="simbol" >&divide;</button>
+            
+          
+              <button type="button" >7</button>
+              <button type="button" >8</button>
+              <button type="button" >9</button>
+          
+          
+              <button type="button" >4</button>
+              <button type="button" >5</button>
+              <button type="button" >6</button>
+          
+          
+              <button type="button" >1</button>
+              <button type="button" >2</button>
+              <button type="button" >3</button>
+          
+          
+              <button type="button" value="0">0</button>
+              <button type="button" class="decimal" value=".">.</button>
+              <button type="button" class="all-clear" value="all-clear">AC</button>
+          
+              <button class="c" type="button" class="equal-sign" value="=">=</button>
+        </div>
+      </div>
+        
+        
+    </body>
+</html>
