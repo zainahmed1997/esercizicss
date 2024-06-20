@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    body {
+
+margin: 0 auto;
+display: grid;
+
+grid-template-areas:
+  "a a a "
+  " c d e" 
+  "  c d e"   
+  "b  b e"
+ 
+
+}
+
+section {
+padding: 2em;
+margin: 1em;
+}
+
+#green {
+background-color: #8ffda7;
+grid-area: a;
+
+}
+
+#orange {
+background-color: #ffc788;
+grid-area: b;
+
+}
+
+#yellow {
+background-color: #ffff92;
+grid-area: c;
+}
+
+#red {
+background-color: #ff919c;
+grid-area: d;
+}
+
+#blue {
+background-color: #98d2ff;
+grid-area: e;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+background-color: white;
+padding: 1em;
+display: block;
+margin: 1em;
+}
+
+</style>
+
+<body>
+<section id="green">
+  <p>GREEN</p>
+</section>
+<section id="yellow">
+  <p>YELLOW</p>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+</section>
+<section id="orange">
+  <p>ORANGE</p>
+</section>
+<section id="red">
+  <p>RED</p>
+  <ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+  </ul>
+</section>
+<section id="blue">
+  <p>BLUE</p>
+</section>
+</body>
+
+</html>
